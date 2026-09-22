@@ -4,9 +4,15 @@ You do **not** need to be a game developer to participate.
 
 This repository is an open game-design concept. If a mechanic sounds fun, reacting to it is already useful.
 
-## How to React
+## Start Here
 
-Each major concept has its own thread:
+For casual reactions, questions, polls, or new ideas, use:
+
+👉 **[GitHub Discussions](https://github.com/mero807/time-leap-arpg-game-design/discussions)**
+
+You do not need to write anything technical.
+
+If you only want to react to one specific mechanic, each major concept also has its own thread:
 
 1. [Time Leap — knowledge survives, power rewinds](https://github.com/mero807/time-leap-arpg-game-design/issues/1)
 2. [Hidden Jobs — discover classes through strange conditions](https://github.com/mero807/time-leap-arpg-game-design/issues/2)
@@ -46,7 +52,7 @@ Someone may not care about the entire game but strongly like one system.
 
 Separate threads make it possible to see which ideas resonate independently.
 
-The repository itself is the source of truth. The concept threads are only lightweight feedback surfaces.
+The repository itself is the source of truth. Discussions and concept threads are lightweight community surfaces for reactions, polls, questions, and new variations.
 
 ## Share It Freely
 
