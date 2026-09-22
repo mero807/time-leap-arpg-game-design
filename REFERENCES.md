@@ -94,6 +94,20 @@ Potentially useful for:
 - thinking about large systemic worlds
 - emergent combinations of systems rather than only authored linear content
 
+
+### Mother of Learning
+Community suggestion:
+- a fantasy time-loop story where the protagonist is trapped in a roughly one-month loop ending in a major disaster
+- repeated loops turn accumulated knowledge and understanding into meaningful progress
+
+Why it may be useful:
+- useful for studying how repeated histories can gradually reveal the causes behind a disaster
+- relevant to the idea that the player becomes more capable through knowledge rather than only permanent numerical growth
+
+Important difference:
+- this project is not intended to use one fixed repeating month as its central structure
+- the player should be able to intentionally return to previously experienced points in history and create divergent futures
+
 ---
 
 ## Useful Comparisons That Are Not Design Goals
