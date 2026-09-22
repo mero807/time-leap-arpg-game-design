@@ -31,6 +31,20 @@ If you like a concept:
 
 There is no expectation that anyone joins a development team.
 
+## Ideas From Reddit and Other Communities
+
+Good ideas do not have to originate on GitHub.
+
+Interesting suggestions from Reddit, Discussions, Issues, or other public conversations can be preserved in:
+
+👉 **[COMMUNITY_IDEAS.md](COMMUNITY_IDEAS.md)**
+
+A promising suggestion may also get its own GitHub Issue so everyone can react, criticize it, or propose variations.
+
+Community ideas are **not automatically canon**. They are recorded first, discussed, and only moved into the main design documents if they fit.
+
+The first example is **Temporal Awareness**: rare time-related bosses or anomalous beings may remember fragments of timelines the player rewrote.
+
 ## What Feedback Is Useful?
 
 Examples:
