@@ -156,6 +156,7 @@ See [COMMUNITY.md](COMMUNITY.md) for the full community guide, [COMMUNITY_IDEAS.
 - [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) — unresolved design questions
 - [IDEA_LOG.md](IDEA_LOG.md) — experimental ideas that are not canon
 - [COMMUNITY_IDEAS.md](COMMUNITY_IDEAS.md) — promising ideas and variations suggested through public feedback
+- [REFERENCES.md](REFERENCES.md) — design inspirations, community comparisons, and useful reference works
 - [CONTRIBUTING.md](CONTRIBUTING.md) — how to use or extend this repository
 
 ---
