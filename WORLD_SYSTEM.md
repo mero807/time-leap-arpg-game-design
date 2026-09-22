@@ -128,6 +128,178 @@ This provides both freedom and a sense of a living world.
 
 ---
 
+## Emergent Incidents, Rumors, and Mission Escalation
+
+Not every problem in the world should become a visible quest.
+
+Small incidents should first exist as **world state**, not as UI tasks.
+
+Examples:
+
+- a child fails to return from a forest
+- a merchant notices stock disappearing
+- travelers report strange lights at night
+- two villagers begin fighting over missing money
+- hunters stop returning from one route
+- a rumor spreads about a witch, monster, cult, or hidden ruin
+
+The player may hear about these through conversation, observation, letters, gossip, witnesses, faction reports, or environmental evidence.
+
+The game should **not automatically respond with a quest banner, objective checklist, map marker, or completion counter**.
+
+The guiding rule is:
+
+> **The event exists because it happened in the world, not because the game wants the player to complete content.**
+
+The player may investigate, ignore it, misunderstand it, arrive too late, or discover that the rumor was false.
+
+Rumors themselves may be:
+
+- accurate
+- incomplete
+- exaggerated
+- outdated
+- biased by the speaker
+- deliberately false
+
+This makes information gathering part of exploration.
+
+A lightweight Rumor / Observation log may record what the player has actually heard or discovered, but it should avoid converting that information into explicit instructions such as "Go here" or "Kill 0/10."
+
+---
+
+## From Small Incident to Extra Mission
+
+A small incident may grow into a major event.
+
+Conceptual escalation:
+
+1. **Ambient Incident** — something happens in the simulation.
+2. **Local Rumor** — people notice and begin talking about it.
+3. **Regional Problem** — multiple incidents reveal a larger pattern.
+4. **Formal Mission** — a guild, kingdom, faction, or organization recognizes the problem and issues an explicit task.
+5. **Extra Mission / Major Event** — the player uncovers a threat whose scale is far beyond the original incident.
+6. **World Event** — the situation becomes large enough to affect regions, factions, history, or the wider population.
+
+Example:
+
+- a mother says her son has not returned from the forest
+- the player finds abandoned equipment marked with an unknown symbol
+- other disappearances are discovered
+- rumors point toward a hidden group
+- investigation reveals a large ritual or invasion plan
+- only then does an **Extra Mission** or major world event become formally recognized
+
+The important point is that the escalation should come from **world state and discovered causality**, not merely from a prewritten quest chain revealing its next step.
+
+Ignoring the first incident does not need to freeze the world.
+
+Depending on its event timing category:
+
+- another NPC may intervene
+- another adventurer may solve it
+- the missing person may return alone
+- the victim may die
+- the responsible group may grow stronger
+- the incident may disappear without becoming important
+- it may later explode into a regional or world-scale crisis
+
+The same type of small incident should therefore be capable of producing different histories.
+
+Formal quest UI is best reserved for situations where the fiction itself justifies a formal mission, such as:
+
+- guild contracts
+- military orders
+- faction assignments
+- explicit requests accepted by the player
+- major emergencies
+- Extra Missions
+- World Events
+
+Because ordinary problems are not constantly labeled as quests, the appearance of an **Extra Mission** or **World Event** notification should feel exceptional and significant.
+
+---
+
+## AI-Driven NPC Society — Long-Term Vision
+
+A long-term direction is for NPCs to behave less like scripted quest terminals and more like inhabitants with persistent internal state.
+
+An important NPC may conceptually maintain:
+
+- temperament and personality
+- values and prejudices
+- current emotions
+- needs and short-term goals
+- long-term ambitions
+- occupation and schedule
+- family and social relationships
+- faction loyalty
+- personal history
+- memories of the player
+- memories of other NPCs
+- knowledge boundaries: what this NPC knows, suspects, or does not know
+- reactions to major historical events
+
+Dialogue should be derived from these states whenever practical rather than being limited to a fixed list of lines.
+
+The desired result is that the same situation may produce different reactions from different characters.
+
+A stranger may react awkwardly when suddenly greeted.
+
+A friend may answer casually.
+
+A hostile NPC may refuse conversation.
+
+A person whose family was harmed by a faction may interpret the player differently from someone who benefited from that faction.
+
+NPCs should also be able to create consequences for one another without waiting for the player.
+
+Examples:
+
+- rumors spread
+- friendships form or collapse
+- theft creates conflict
+- marriages or rivalries alter relationships
+- people flee a dangerous area
+- merchants relocate
+- factions recruit or punish people
+- witnesses carry information between settlements
+
+This is a **long-term simulation goal**, not an initial vertical-slice requirement.
+
+A practical implementation should not require every NPC to run expensive full reasoning continuously.
+
+Possible layered simulation:
+
+- lightweight schedule/state simulation for ordinary background life
+- event-driven updates when meaningful changes occur
+- deeper social reasoning when important NPCs interact
+- high-detail reasoning/dialogue when the player directly engages
+- summarized simulation for distant populations and regions
+
+This can be treated as a form of **Cognitive Level of Detail**: the world preserves continuity for many inhabitants while expensive reasoning is concentrated where meaningful decisions are occurring.
+
+---
+
+## Natural Player Interaction — Future Interface Direction
+
+The world simulation should be designed so that it does not depend exclusively on menu-based interaction.
+
+Even if the initial game uses conventional controls, world actions should ideally be representable as semantic events such as:
+
+- PlayerGreetedNPC
+- PlayerThreatenedNPC
+- PlayerTouchedNPCShoulder
+- PlayerReturnedLostProperty
+- PlayerOverheardRumor
+- PlayerInterruptedFight
+
+This leaves room for future input methods such as natural voice conversation, hand tracking, VR, or other embodied controls without redesigning the entire social simulation.
+
+The long-term ideal is:
+
+> **The player expresses intent naturally; the world interprets the action and responds according to its current state.**
+
 ## World-State Tags
 
 The world should be data-driven whenever practical.
