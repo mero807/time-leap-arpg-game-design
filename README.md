@@ -121,12 +121,12 @@ You do not need to be a game developer to participate.
 
 If one specific mechanic sounds fun, open its concept thread and leave a 👍 reaction or a comment. The goal is not to recruit a team; it is simply to see which ideas resonate with players and creators.
 
-- **Time Leap — knowledge survives, power rewinds**
-- **Hidden Jobs — discover classes through strange cross-system conditions**
-- **Causality Distortion — rewriting history creates new anomalies instead of a simple penalty**
-- **Adaptive Bosses — bosses notice habits and change attack selection**
-- **Living World — factions and events keep moving without a mandatory main quest**
-- **Buildcraft — jobs, skills, stats, statuses, history and titles combine into unexpected builds**
+- [**Time Leap — knowledge survives, power rewinds**](https://github.com/mero807/time-leap-arpg-game-design/issues/1)
+- [**Hidden Jobs — discover classes through strange cross-system conditions**](https://github.com/mero807/time-leap-arpg-game-design/issues/2)
+- [**Causality Distortion — rewriting history creates new anomalies instead of a simple penalty**](https://github.com/mero807/time-leap-arpg-game-design/issues/3)
+- [**Adaptive Bosses — bosses notice habits and change attack selection**](https://github.com/mero807/time-leap-arpg-game-design/issues/4)
+- [**Living World — factions and events keep moving without a mandatory main quest**](https://github.com/mero807/time-leap-arpg-game-design/issues/5)
+- [**Buildcraft — jobs, skills, stats, statuses, history and titles combine into unexpected builds**](https://github.com/mero807/time-leap-arpg-game-design/issues/6)
 
 See [COMMUNITY.md](COMMUNITY.md) for the current reaction threads and ways to share the project.
 
