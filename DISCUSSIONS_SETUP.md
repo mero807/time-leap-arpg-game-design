@@ -1,8 +1,8 @@
 # GitHub Discussions Setup
 
-GitHub Discussions is currently intended as the friendlier community layer for people who do not want to use Issues.
+GitHub Discussions is enabled and is intended as the friendlier community layer for people who do not want to use Issues.
 
-The repository owner needs to enable Discussions from the GitHub repository settings because the current integration cannot change that repository setting.
+The remaining setup is to create the initial categories/posts and use Discussions as the main casual-feedback entry point.
 
 ## Recommended Categories
 
@@ -75,6 +75,11 @@ Short reactions are welcome.
 
 ---
 
-## After Discussions Is Enabled
+## Current Status
 
-The README can be updated to make Discussions the main feedback entrance while keeping the existing Concept Issues as permanent per-mechanic reaction threads.
+- Discussions: enabled
+- README: points to Discussions as the main community entrance
+- Concept Issues: kept as permanent per-mechanic reaction threads
+- CC0 license: recognized by GitHub
+
+The next recommended manual step is to publish the welcome Announcement and then create the first Poll.
