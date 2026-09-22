@@ -71,6 +71,91 @@ If every enemy remembers every rewind, the player's signature ability may begin 
 
 ---
 
+## 002 — Knowledge-Based World Interaction & Creature Ecology
+
+**Status:** Exploring  
+**Source:** Reddit feedback on knowledge as progression
+
+### Original suggestion
+
+Knowledge progression could go beyond remembering quest answers or unlock conditions.
+
+The player might learn how enemies, animals, monsters, and ecosystems actually behave — and use that understanding in later timelines.
+
+Examples from the community feedback included:
+
+- learning enemy weaknesses and attack patterns
+- noticing visual or posture cues that reveal an upcoming attack
+- discovering that carrying certain food attracts a creature
+- throwing that food to redirect the creature instead of fighting it
+- finding unexpected interactions between ordinary items and specific monsters
+- understanding territorial behavior
+- realizing that a parent creature is aggressive only because the player is between it and its young
+- learning pack hierarchy and using it to influence the rest of the group
+- populations gradually learning to avoid humans in a region
+
+### Current interpretation
+
+The player's persistent knowledge should not only answer:
+
+**"What unlocks this hidden job?"**
+
+It should also answer:
+
+**"How does this world actually work?"**
+
+After seeing one possible future, the player may return to the past knowing:
+
+- how a creature hunts
+- what scares or attracts it
+- what environmental conditions change its behavior
+- which attack animation reveals its next move
+- how an ecosystem or population reacts to human interference
+- how to resolve an encounter without combat
+- which seemingly useless item has an unexpected use against a particular enemy
+
+This turns knowledge itself into a form of player power even when character stats, equipment, and progression rewind.
+
+### Why it is interesting
+
+This creates a strong connection between:
+
+**Time Leap × Knowledge Progression × Exploration × Creature AI**
+
+A future timeline can teach the player something about the world that becomes useful in an earlier timeline.
+
+The important distinction is that the character does not permanently gain a numerical bonus — **the player becomes more capable because they understand more.**
+
+It also gives time travel meaningful uses outside quests and major historical decisions.
+
+For example:
+
+1. The player encounters an apparently unavoidable monster in one timeline.
+2. Much later, they discover that the species follows territorial or feeding rules.
+3. They rewind.
+4. This time they manipulate the environment, redirect the creature, or avoid the fight entirely.
+5. The altered encounter may produce a different downstream history.
+
+### Design caution
+
+The behavior needs to be understandable enough that players can genuinely learn it.
+
+If creature behavior is too random or every interaction requires obscure trial-and-error, "knowledge as progression" may feel like guessing rather than mastery.
+
+Likewise, not every creature needs a complex simulation. A smaller set of readable behavioral rules could create the illusion of a much richer ecosystem.
+
+### Open questions
+
+- Which creature behaviors should be systemic, and which should be authored?
+- How clearly should the game communicate behavioral clues?
+- Can creature populations change behavior across history?
+- Can knowledge from a future ecosystem still be reliable after the player changes the past?
+- Should some hidden jobs or skills require understanding a creature instead of defeating it?
+- Can non-combat solutions create unique historical branches?
+- How much of this knowledge should be recorded in-game versus remembered by the player?
+
+---
+
 ## How new ideas get added
 
 Interesting community feedback can be preserved here even when it is not accepted into the main design.
