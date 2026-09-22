@@ -115,11 +115,19 @@ A real implementation should begin with a very small vertical slice and prove th
 
 ---
 
-## React to Individual Ideas
+## Join the Discussion
 
-You do not need to be a game developer to participate.
+You do **not** need to be a game developer to participate.
 
-If one specific mechanic sounds fun, open its concept thread and leave a 👍 reaction or a comment. The goal is not to recruit a team; it is simply to see which ideas resonate with players and creators.
+If you simply think "I would play this", "this sounds annoying", or "what if it worked like this instead?", that is useful feedback.
+
+👉 **[Open GitHub Discussions](https://github.com/mero807/time-leap-arpg-game-design/discussions)**
+
+Use Discussions for casual reactions, questions, polls, and new ideas.
+
+### React to Individual Mechanics
+
+If you want to react to one specific mechanic, each major concept also has its own lightweight thread. A 👍 is enough.
 
 - [**Time Leap — knowledge survives, power rewinds**](https://github.com/mero807/time-leap-arpg-game-design/issues/1)
 - [**Hidden Jobs — discover classes through strange cross-system conditions**](https://github.com/mero807/time-leap-arpg-game-design/issues/2)
@@ -128,7 +136,7 @@ If one specific mechanic sounds fun, open its concept thread and leave a 👍 re
 - [**Living World — factions and events keep moving without a mandatory main quest**](https://github.com/mero807/time-leap-arpg-game-design/issues/5)
 - [**Buildcraft — jobs, skills, stats, statuses, history and titles combine into unexpected builds**](https://github.com/mero807/time-leap-arpg-game-design/issues/6)
 
-See [COMMUNITY.md](COMMUNITY.md) for the current reaction threads and ways to share the project.
+See [COMMUNITY.md](COMMUNITY.md) for the full community guide and [SHAREABLE_POSTS.md](SHAREABLE_POSTS.md) for short versions that can be reposted elsewhere.
 
 
 ## Repository Map
