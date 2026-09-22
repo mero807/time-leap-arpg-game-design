@@ -112,6 +112,25 @@ A real implementation should begin with a very small vertical slice and prove th
 
 ---
 
+
+---
+
+## React to Individual Ideas
+
+You do not need to be a game developer to participate.
+
+If one specific mechanic sounds fun, open its concept thread and leave a 👍 reaction or a comment. The goal is not to recruit a team; it is simply to see which ideas resonate with players and creators.
+
+- **Time Leap — knowledge survives, power rewinds**
+- **Hidden Jobs — discover classes through strange cross-system conditions**
+- **Causality Distortion — rewriting history creates new anomalies instead of a simple penalty**
+- **Adaptive Bosses — bosses notice habits and change attack selection**
+- **Living World — factions and events keep moving without a mandatory main quest**
+- **Buildcraft — jobs, skills, stats, statuses, history and titles combine into unexpected builds**
+
+See [COMMUNITY.md](COMMUNITY.md) for the current reaction threads and ways to share the project.
+
+
 ## Repository Map
 
 - [GAME_CONCEPT.md](GAME_CONCEPT.md) — overall game concept and player fantasy
