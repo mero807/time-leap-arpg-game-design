@@ -215,3 +215,43 @@ Implementation should begin with only enough content to prove the core:
 - one dense area
 
 Do not build 100 jobs before proving four jobs are fun.
+---
+
+## 13. World Events Before Quests
+
+Not every interesting event should become a quest.
+
+Small problems, rumors, disappearances, arguments, crimes, discoveries, and strange phenomena should be allowed to exist simply because something happened in the world.
+
+The player should often decide for themselves whether something is worth investigating.
+
+Avoid automatically turning every hint into:
+
+- a quest banner
+- an objective checklist
+- a map marker
+- a completion counter
+- an implied obligation to finish content
+
+Formal quest presentation is most appropriate when the fiction itself creates a formal assignment or when an incident has escalated into a major event.
+
+A small incident may organically become an Extra Mission or World Event if the underlying situation grows large enough.
+
+The desired feeling is:
+
+> **"I discovered that this mattered," not "the game told me what content to do next."**
+
+---
+
+## 14. NPCs Should Be Inhabitants, Not Quest Terminals
+
+NPCs should exist for reasons beyond giving the player content.
+
+Whenever practical, characters should have persistent state such as relationships, beliefs, memories, schedules, goals, knowledge, and reactions to history.
+
+Their behavior should be driven by the world they inhabit and what they have experienced, not only by whether the player currently needs a quest.
+
+The player should be capable of forming stories with NPCs through repeated interaction even when no formal quest is involved.
+
+Long-term AI-driven dialogue or social simulation should preserve this principle rather than becoming a procedural replacement for static quest text.
+
