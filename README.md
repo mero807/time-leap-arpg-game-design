@@ -136,7 +136,7 @@ If you want to react to one specific mechanic, each major concept also has its o
 - [**Living World — factions and events keep moving without a mandatory main quest**](https://github.com/mero807/time-leap-arpg-game-design/issues/5)
 - [**Buildcraft — jobs, skills, stats, statuses, history and titles combine into unexpected builds**](https://github.com/mero807/time-leap-arpg-game-design/issues/6)
 
-See [COMMUNITY.md](COMMUNITY.md) for the full community guide and [SHAREABLE_POSTS.md](SHAREABLE_POSTS.md) for short versions that can be reposted elsewhere.
+See [COMMUNITY.md](COMMUNITY.md) for the full community guide, [COMMUNITY_IDEAS.md](COMMUNITY_IDEAS.md) for ideas that came from Reddit/GitHub feedback, and [SHAREABLE_POSTS.md](SHAREABLE_POSTS.md) for short versions that can be reposted elsewhere.
 
 
 ## Repository Map
@@ -155,6 +155,7 @@ See [COMMUNITY.md](COMMUNITY.md) for the full community guide and [SHAREABLE_POS
 - [CRAFTING_SYSTEM.md](CRAFTING_SYSTEM.md) — crafting and combat-capable production jobs
 - [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) — unresolved design questions
 - [IDEA_LOG.md](IDEA_LOG.md) — experimental ideas that are not canon
+- [COMMUNITY_IDEAS.md](COMMUNITY_IDEAS.md) — promising ideas and variations suggested through public feedback
 - [CONTRIBUTING.md](CONTRIBUTING.md) — how to use or extend this repository
 
 ---
