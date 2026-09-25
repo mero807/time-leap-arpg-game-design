@@ -172,6 +172,72 @@ Likewise, not every creature needs a complex simulation. A smaller set of readab
 
 ---
 
+## 003 — Recoverable Hidden Jobs
+
+**Status:** Exploring  
+**Source:** Reddit feedback on hidden-job unlock conditions
+
+### Original concern
+
+A player liked the hidden-class concept but worried about missing jobs because of **one-time unlock conditions**.
+
+That concern is especially important for a game built around obscure, cross-system requirements.
+
+### Current interpretation
+
+Hidden jobs can be difficult to discover without being permanently missable.
+
+The preferred design direction is:
+
+> **The challenge should be discovering and recreating the conditions — not permanently losing access because the player made one uninformed choice many hours earlier.**
+
+The Time Leap system gives this idea a natural solution.
+
+For example:
+
+1. The player passes an event without knowing it is relevant.
+2. Much later, they discover clues that reveal a hidden job and its unusual requirements.
+3. They return to an earlier point in history.
+4. They intentionally recreate the necessary conditions.
+5. The hidden job becomes obtainable in the rewritten timeline.
+
+This allows one-time historical events to matter without turning them into permanent lockouts.
+
+### Why it is interesting
+
+This connects:
+
+**Hidden Jobs × Knowledge Progression × Time Leap**
+
+A missed opportunity becomes a reason to understand the past better rather than a reason to reload an old save or consult a wiki before every decision.
+
+It also supports the fantasy that **knowledge gained in one history makes previously invisible possibilities accessible in another.**
+
+### Design caution
+
+Recoverable does not need to mean easy.
+
+Some hidden jobs may require:
+
+- reaching the correct historical window
+- recreating several unusual conditions at once
+- changing an earlier event first
+- preserving or preventing a specific NPC, faction, curse, title, or world state
+- combining knowledge gathered across multiple timelines
+
+However, the game should avoid permanently locking a player out of a job solely because they did not already know that an obscure one-time event mattered.
+
+### Open questions
+
+- Should every hidden job be recoverable through time travel?
+- Are there any cases where permanent loss would genuinely improve the design?
+- How much information should the player receive after discovering that a job exists?
+- Should clues point to the historical period where the unlock became possible?
+- Can changing history make one hidden job available while making another temporarily unreachable?
+- Should some jobs require information gathered from multiple incompatible futures?
+
+---
+
 ## How new ideas get added
 
 Interesting community feedback can be preserved here even when it is not accepted into the main design.
