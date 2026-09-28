@@ -291,6 +291,44 @@ A boss could then respond by **shifting the weight of its available tactics**:
 - use anti-heal pressure when the player predictably heals
 - in special encounters, interact with or exploit hoarded resources
 
+### Readable adaptation: change decisions, not hidden rules
+
+A particularly useful follow-up in the discussion drew a line between adaptation that feels intelligent and adaptation that feels like cheating.
+
+If the boss notices that the player parries too often, it is reasonable for the boss to **choose a different readable option**:
+
+- a clearly telegraphed feint
+- a grab
+- an unparryable attack
+- a different weapon or stance
+- an attack family that forces another defensive response
+
+What should generally be avoided is secretly changing an already-learned move just to invalidate the player's timing — for example, inserting a tiny unexpected delay into the same animation only because the game detected frequent parries.
+
+A useful rule is:
+
+> **Adaptation may change the boss's decisions, but it should not secretly rewrite the rules of moves the player already learned.**
+
+The player can be surprised by **what** the boss chooses, while still being able to trust and learn **how** each move works.
+
+### Enemy mastery as a level of combat intelligence
+
+Another community suggestion reframed adaptation as **weapon mastery and combat experience** rather than a universal AI feature.
+
+Two enemies can use the same weapon but interpret the player at very different levels:
+
+- **Novice** — understands basic range and attacks, but commits clumsily and reacts late
+- **Skilled fighter** — recognizes common defensive responses, spacing, and simple patterns
+- **Master** — reads stance, deliberately baits reactions, uses feints, and recognizes the player's intended response before committing
+
+For example, a novice swordsman may simply rush into a spearman's range. A master swordsman may recognize the spear stance, fake an entry, bait an early thrust, then punish the recovery.
+
+This gives adaptation an in-world explanation:
+
+> **The enemy is not omniscient. They are experienced enough to recognize what the player is trying to do.**
+
+Normal enemies could use little or none of this profiling, while elite rivals, weapon masters, unique duelists, or one-time encounters could push it much further.
+
 ### The important constraint: adaptation should not become punishment
 
 A strong concern from the discussion was that direct counters can easily make a fight more tedious rather than more interesting.
@@ -317,18 +355,20 @@ That moment should encourage the player to deliberately vary their behavior and 
 
 This expands the existing Adaptive Boss AI concept from simple move prediction into:
 
-**Combat Habits × Build Strategy × Resource Management × Tactical Adaptation**
+**Combat Habits × Build Strategy × Resource Management × Tactical Adaptation × Enemy Mastery**
 
 It also suggests that different bosses could observe different categories of behavior, keeping the mechanic readable and thematic instead of creating one universal omniscient AI.
 
 ### Design caution
 
-- No input reading.
+- Prefer observation and authored tactical choices over invisible input reading.
 - No unavoidable counters.
 - Avoid perfect adaptation.
+- Do not secretly alter familiar move timings or rules solely to punish a detected habit.
 - Adaptation should be gradual enough for the player to notice and respond.
 - Counterplay should remain available.
 - Not every boss needs this system.
+- Enemy mastery should determine how deeply an opponent can read the player's intentions.
 - Some adaptations should be imperfect or exploitable so the player can intentionally feed the boss false patterns.
 
 ### Open questions
@@ -339,6 +379,8 @@ It also suggests that different bosses could observe different categories of beh
 - Should some bosses analyze build/equipment before combat while others learn only during the fight?
 - How visible should adaptation be through animation, dialogue, stance, or weapon changes?
 - Should resource-based counters be limited to special gimmick bosses because they can easily feel unfair?
+- Should enemy mastery determine which player habits an enemy is capable of recognizing?
+- Could one-time duelists or named masters use deeper profiling because their encounter is meant to be uniquely memorable?
 
 ---
 
