@@ -2,7 +2,7 @@
 
 This file collects games, stories, and design comparisons that may be useful when thinking about the project.
 
-Some are direct design inspirations already mentioned in the repository. Others were suggested by people discussing the concept on Reddit.
+Some are direct design inspirations already mentioned in the repository. Others were suggested by people discussing the concept publicly.
 
 **Being listed here does not mean the project is trying to copy that work.**  
 A reference may be useful for one mechanic, one feeling, one design problem, or simply as a comparison that helps clarify what this project is trying to do differently.
@@ -45,7 +45,7 @@ Useful reference for:
 
 ## Community-Suggested References
 
-These were brought up during discussion of the Time Leap concept.
+These were brought up during public discussion of the project's mechanics.
 
 ### Outer Wilds
 Community comparison:
@@ -94,7 +94,6 @@ Potentially useful for:
 - thinking about large systemic worlds
 - emergent combinations of systems rather than only authored linear content
 
-
 ### Mother of Learning
 Community suggestion:
 - a fantasy time-loop story where the protagonist is trapped in a roughly one-month loop ending in a major disaster
@@ -107,6 +106,40 @@ Why it may be useful:
 Important difference:
 - this project is not intended to use one fixed repeating month as its central structure
 - the player should be able to intentionally return to previously experienced points in history and create divergent futures
+
+### Batman: Arkham City — Mr. Freeze encounter
+Community comparison:
+- suggested as an example of a boss encounter that pushes the player away from repeating the same successful tactic
+
+Why it may be useful:
+- useful when thinking about how an intelligent boss can force tactical variation without simply increasing stats
+- relevant to the desired feeling that a boss learns enough to make repeated solutions less reliable
+
+### Middle-earth: Shadow of Mordor / Shadow of War
+Community comparison:
+- suggested because enemies can develop traits or immunities that alter how previously effective attacks work against them
+
+Why it may be useful:
+- useful for thinking about persistent enemy adaptation and how a changing opponent can encourage different tactics
+
+### Phantom Blade Zero
+Community comparison:
+- a commenter described playtest impressions of bosses tracking player behavior and changing move selection through weighted responses
+- examples mentioned included stronger answers to frequent parries or repeated dodge behavior
+
+Why it may be useful:
+- this is especially close to the project's current Adaptive Boss AI direction: observe behavior, weight authored move choices differently, and preserve counterplay rather than using arbitrary unpredictability
+
+Note:
+- this entry records a community-reported comparison and should be verified separately before treating specific behavior as confirmed implementation detail
+
+### Hello Neighbor
+Community comparison:
+- suggested as a game associated with learning or reacting to repeated player behavior
+
+Why it may be useful:
+- useful as a broad reference point for the fantasy of an opponent that notices repeated habits
+- also useful as a reminder that adaptation needs to remain readable and fun rather than merely obstructive
 
 ---
 
@@ -185,13 +218,22 @@ Even if stats and equipment rewind, the player should become more capable becaus
 - know which events are connected
 - can intentionally create different historical outcomes
 
+### Adaptive enemies should create mind games, not hard counters
+
+Community discussion around adaptive bosses repeatedly highlighted the same tension:
+
+- adaptation is exciting when the player realizes an enemy has noticed a habit
+- adaptation becomes tedious when the enemy simply disables whatever the player likes doing
+
+The preferred direction is therefore weighted, readable adaptation with counterplay — not omniscient AI or instant hard counters.
+
 ---
 
 ## Source of Community Comparisons
 
-Many of the community suggestions currently listed here came from discussion around the first public Time Leap post in **r/gameideas**.
+Many of the community suggestions currently listed here came from discussion around public posts in **r/gameideas**.
 
-Main discussion:
+First Time Leap discussion:
 https://www.reddit.com/r/gameideas/comments/1wn1ubo/what_if_an_rpg_let_you_rewind_history_but_only/
 
 This list can grow over time as more useful comparisons or references are suggested.
