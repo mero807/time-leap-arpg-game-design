@@ -238,6 +238,110 @@ However, the game should avoid permanently locking a player out of a job solely 
 
 ---
 
+## 004 — Adaptive Bosses: Strategic Player Profiling
+
+**Status:** Exploring  
+**Source:** Reddit feedback on adaptive boss behavior
+
+### Original suggestions
+
+Players suggested that an intelligent boss could adapt not only to individual button presses, but to broader habits and strategic patterns.
+
+Examples included:
+
+- recognizing a player who turtles early by investing heavily in defense, then applying early pressure before that strategy stabilizes
+- noticing repeated opening moves and preparing a defensive answer
+- changing weapons or attack sets depending on the player
+- reacting to parry-heavy or dodge-heavy play with different attack families
+- exploiting inventory behavior, such as hoarding consumables or carrying large amounts of healing items
+
+### Current interpretation
+
+Adaptive bosses should build a **lightweight profile of the player's strategy**, rather than directly reading inputs or hard-countering every action.
+
+Possible observation layers:
+
+#### Combat habits
+- preferred dodge direction
+- parry frequency
+- heal timing
+- distance preference
+- repeated opener
+- repeated high-value skill
+- aggression after successful defense
+
+#### Build and strategy habits
+- defensive/turtle-oriented builds
+- glass-cannon aggression
+- dependence on ranged attacks
+- reliance on one damage type
+- unusually high sustain or healing
+
+#### Resource habits
+- hoarding consumables
+- carrying large healing reserves
+- rarely using certain item categories
+
+A boss could then respond by **shifting the weight of its available tactics**:
+
+- pressure a defensive player earlier
+- introduce feints against frequent parries
+- favor sweep attacks against repeated directional dodging
+- switch weapons or stance to challenge a dominant range or damage pattern
+- use anti-heal pressure when the player predictably heals
+- in special encounters, interact with or exploit hoarded resources
+
+### The important constraint: adaptation should not become punishment
+
+A strong concern from the discussion was that direct counters can easily make a fight more tedious rather than more interesting.
+
+The intended model is therefore:
+
+> **Notice patterns → adjust probabilities and tactics → occasionally surprise the player**
+
+not:
+
+> **Notice a pattern → instantly shut it down every time**
+
+The player should still be able to use their preferred playstyle. The boss is trying to make the player think, not invalidate their build.
+
+### Desired feeling
+
+The ideal realization is:
+
+> **"Wait... it figured out what I've been doing."**
+
+That moment should encourage the player to deliberately vary their behavior and start a mind game with the boss.
+
+### Why it is interesting
+
+This expands the existing Adaptive Boss AI concept from simple move prediction into:
+
+**Combat Habits × Build Strategy × Resource Management × Tactical Adaptation**
+
+It also suggests that different bosses could observe different categories of behavior, keeping the mechanic readable and thematic instead of creating one universal omniscient AI.
+
+### Design caution
+
+- No input reading.
+- No unavoidable counters.
+- Avoid perfect adaptation.
+- Adaptation should be gradual enough for the player to notice and respond.
+- Counterplay should remain available.
+- Not every boss needs this system.
+- Some adaptations should be imperfect or exploitable so the player can intentionally feed the boss false patterns.
+
+### Open questions
+
+- How much history should a boss use when profiling the player?
+- Should adaptation reset between attempts, partially persist, or depend on the boss?
+- Can the player intentionally teach the boss a false habit and then exploit its response?
+- Should some bosses analyze build/equipment before combat while others learn only during the fight?
+- How visible should adaptation be through animation, dialogue, stance, or weapon changes?
+- Should resource-based counters be limited to special gimmick bosses because they can easily feel unfair?
+
+---
+
 ## How new ideas get added
 
 Interesting community feedback can be preserved here even when it is not accepted into the main design.
