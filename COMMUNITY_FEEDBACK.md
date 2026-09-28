@@ -346,6 +346,140 @@ See [REFERENCES.md](REFERENCES.md) for the growing reference list.
 
 ---
 
+# 4. Adaptive Bosses — from move reading to strategic profiling
+
+The fourth public post asked:
+
+> **If a boss could notice ONE habit in the way you play, what habit should it learn — and how should it use that against you?**
+
+This prompt produced several concrete examples and, more importantly, exposed the main design risk of adaptive bosses.
+
+## Player habits worth observing
+
+Community suggestions expanded the idea beyond simple input patterns.
+
+Possible observation targets now include:
+
+- preferred dodge direction
+- parry frequency
+- heal timing
+- repeated opening moves
+- preferred combat distance
+- reliance on one high-value skill
+- early investment in defense / turtle play
+- glass-cannon aggression
+- ranged dependence
+- healing-heavy sustain
+- hoarding consumables or healing items
+
+This suggests that adaptive AI can profile **strategy**, not just button presses.
+
+## Strategic adaptation instead of input reading
+
+One player described a defensive/turtle playstyle and noted that an early rush can knock that strategy off balance.
+
+That suggests a boss could notice not only what the player presses, but what kind of plan they are building toward.
+
+Examples:
+
+- pressure a turtle-oriented player before their defensive setup stabilizes
+- alter range or tempo against a player who relies heavily on distance
+- change weapon or stance depending on the player's dominant approach
+- mix delayed attacks or feints against frequent parries
+- favor broader attacks against predictable dodge habits
+
+This became [COMMUNITY_IDEAS.md — 004 Adaptive Bosses: Strategic Player Profiling](COMMUNITY_IDEAS.md).
+
+## Resource-management habits can also be gameplay data
+
+A particularly unusual suggestion was to let a special boss exploit hoarded consumables or healing reserves.
+
+Possible interpretations:
+
+- a thief-like boss steals unused consumables
+- a "hoarder" boss gains stronger healing based on how much recovery inventory the player carries
+- an encounter specifically punishes stockpiling rather than moment-to-moment combat habits
+
+This should probably remain a **special boss gimmick**, not a universal rule, because inventory-based counters can easily feel unfair.
+
+## The biggest danger: adaptation can become tedious
+
+One commenter raised the most important concern:
+
+If the boss notices a tactic and directly negates it every time, the fight may become more tedious rather than more intelligent.
+
+That led to a clearer design rule:
+
+> **Adaptive AI should challenge a habit, not invalidate a playstyle.**
+
+The intended model is:
+
+> **Notice patterns → shift tactic probabilities → occasionally catch predictable behavior**
+
+not:
+
+> **Notice pattern → hard-counter it forever**
+
+The desired player reaction is:
+
+> **"Oh no, it read me."**
+
+not:
+
+> **"The game refuses to let me play my build."**
+
+## Weapon and stance switching
+
+Another suggestion was that a boss could change weapons or attack families depending on the player.
+
+This expands adaptation from move selection into **combat-style selection**.
+
+The same fairness rule still applies: a weapon switch should change the matchup without becoming a perfect answer to everything the player does.
+
+## Counter-adaptation could become a player skill
+
+A useful open direction emerged from the discussion:
+
+If bosses learn patterns, the player may intentionally create **false patterns**.
+
+For example:
+
+1. repeatedly dodge in one direction
+2. let the boss begin favoring a counter to that behavior
+3. deliberately change the pattern
+4. punish the boss for adapting to misleading information
+
+This turns adaptive AI into a two-sided mind game rather than a one-way difficulty system.
+
+## Community references
+
+Several existing games were suggested as useful comparisons:
+
+- *Batman: Arkham City* — Mr. Freeze encounter
+- *Middle-earth: Shadow of Mordor / Shadow of War*
+- *Phantom Blade Zero*
+- *Hello Neighbor*
+
+These are now recorded in [REFERENCES.md](REFERENCES.md).
+
+The Phantom Blade Zero comparison is particularly close to the current direction because a commenter described weighted responses to frequent parries or repeated dodge behavior. That specific implementation detail is currently recorded as a **community-reported comparison** and should be independently verified before being treated as confirmed behavior.
+
+## What became clearer
+
+The Adaptive Boss concept is no longer just:
+
+> "Boss notices that I dodge right."
+
+It is becoming:
+
+> **The boss forms a limited, imperfect model of how the player fights, then uses that model to influence its tactical choices.**
+
+The "limited" and "imperfect" parts are essential.
+
+If the boss becomes omniscient, the system stops feeling intelligent and starts feeling like cheating.
+
+---
+
 # Design Principles Emerging From Community Feedback
 
 Several recurring principles are becoming clearer.
@@ -386,6 +520,12 @@ The condition should help tell the story of the class or mechanic.
 
 Different histories should create different tradeoffs, consequences, and possibilities.
 
+## 9. Adaptive enemies should challenge habits, not delete playstyles
+
+Intelligent adaptation should produce mind games and readable pressure, not omniscient hard counters.
+
+The player should still have room to adapt back, mislead the boss, and preserve their chosen build identity.
+
 ---
 
 # Community Posting Lessons
@@ -401,6 +541,8 @@ Posts are easier to join when readers can answer with:
 - one strange condition
 - one example from another game
 - one concern
+
+The fourth Adaptive Boss post reinforced this strongly: asking people for **one specific habit and one response** produced concrete, usable answers.
 
 ## What gets fewer responses
 
@@ -424,6 +566,8 @@ For example:
 rather than:
 
 > "Here are 12 examples and my complete solution. Is this good?"
+
+The Adaptive Boss discussion also suggests that prompts work especially well when they ask readers to describe **their own play habits**, because people already have personal examples ready to share.
 
 ---
 
