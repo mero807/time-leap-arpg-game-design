@@ -141,6 +141,19 @@ Why it may be useful:
 - useful as a broad reference point for the fantasy of an opponent that notices repeated habits
 - also useful as a reminder that adaptation needs to remain readable and fun rather than merely obstructive
 
+### Iji — final boss
+Community comparison:
+- a commenter described the final boss as combining a relatively small set of attacks into many possible pairings
+- attacks that successfully hit the player can become more likely to appear again
+
+Why it may be useful:
+- suggests a simpler, readable version of adaptive behavior: keep individual moves fixed and understandable while changing their frequency and combinations
+- demonstrates how a limited authored move set can still feel adaptive without requiring an opaque learning model
+- reinforces the idea that adaptation should change selection and weighting rather than secretly rewriting familiar move rules
+
+Note:
+- this entry records a community-reported description and should be verified separately before treating the exact implementation as confirmed behavior
+
 ---
 
 ## Useful Comparisons That Are Not Design Goals
