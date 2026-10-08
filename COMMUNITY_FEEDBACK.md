@@ -480,6 +480,87 @@ If the boss becomes omniscient, the system stops feeling intelligent and starts 
 
 ---
 
+# 5. Living World — incidents that grow while the player is away
+
+The fifth public post explored a world where small problems exist **before they become formal quests** and can develop even if the player does not intervene.
+
+It asked readers to imagine a local incident and what might happen when the player completely ignores it.
+
+## Community feedback: implementation complexity
+
+A commenter (Creative_Abroad945) pointed out that this sounds appealing but would be extremely complicated for programmers.
+
+That concern is real: independent event progression creates pressure on state management, timing, event dependencies, NPC and faction behavior, and — in this particular concept — rewinding and recomputing history.
+
+**Design interpretation:** A convincing living world does not require simulating every person and event in full detail.
+
+Possible scope controls include:
+
+- lightweight rule-based state transitions for ordinary local incidents
+- deeper simulation for selected NPCs, factions, and high-impact world threads
+- event-driven updates rather than continuous detailed processing
+- authored escalation stages combined with a limited set of systemic outcomes
+
+This is a feasibility principle, **not proof that the system is straightforward to build**.
+
+## Community feedback: one incident, many stages
+
+Another commenter (OldManUDC) suggested that problems left unresolved could **grow into progressively larger missions**, rather than existing as isolated disposable quests.
+
+Their examples included:
+
+- a missing child being moved farther from town into more dangerous territory
+- a hostile group gaining defenses and fortifying its position
+- a small operation to drive off troublemakers escalating into a rebellion that must be suppressed
+- a low-level problem becoming a much higher-level mission as time passes
+
+The especially useful distinction is:
+
+> **The same underlying incident changes over time, instead of the game simply generating another unrelated quest.**
+
+This gives continuity to the world. A player may remember a minor rumor and later discover that it has developed into a regional crisis.
+
+## Community feedback: fewer, richer quests
+
+OldManUDC also criticized repetitive RPG quest loops: collecting tasks from several NPCs, following waypoints, optimizing travel routes, and finishing throwaway missions on autopilot.
+
+Their preference was for quests that have more depth and demand meaningful exploration and attention, even if they take longer to complete.
+
+**Design interpretation:** Favor a smaller number of evolving, interconnected incidents over large quantities of shallow checklist content where practical.
+
+This reinforces the existing [WORLD_SYSTEM.md](WORLD_SYSTEM.md) direction of rumors, emergent incidents, escalation, and formal missions becoming meaningful events rather than constant UI prompts.
+
+## Important design caution: ignoring a problem must not always cause disaster
+
+The suggestion that ignored incidents escalate is compelling, but it should not turn every rumor into an urgent obligation.
+
+If every unaddressed event predictably gets worse, players may feel forced to clean up every task immediately rather than explore freely.
+
+The existing Living World direction also allows:
+
+- another adventurer or NPC resolving the problem
+- a situation fading or resolving by itself
+- a false rumor being disproven
+- an incident changing direction unexpectedly
+- a problem growing into a major threat
+
+The intended rule is:
+
+> **World events should have consequences without making the player personally responsible for preventing every negative outcome.**
+
+## Questions to explore
+
+- Which incidents should have explicit escalation stages, and which should remain ambient?
+- How can a player recognize that a later crisis grew from an earlier rumor?
+- Can other NPCs or factions intervene meaningfully without the player?
+- How can the game preserve freedom to explore without creating constant urgency?
+- How do we make a small set of evolving events feel rich without an unmanageable state explosion?
+- If the player rewinds history, how should different interventions reshape the later stages of an incident?
+
+**Status:** Exploring. These are community suggestions and design interpretations, not finalized implementation requirements.
+
+---
+
 # Design Principles Emerging From Community Feedback
 
 Several recurring principles are becoming clearer.
@@ -525,6 +606,10 @@ Different histories should create different tradeoffs, consequences, and possibi
 Intelligent adaptation should produce mind games and readable pressure, not omniscient hard counters.
 
 The player should still have room to adapt back, mislead the boss, and preserve their chosen build identity.
+
+## 10. World incidents should evolve without becoming mandatory chores
+
+Prefer connected, changing incidents over disposable quest checklists, while preserving alternate resolutions and the player's freedom to ignore them.
 
 ---
 
